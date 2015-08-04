@@ -7,3 +7,5 @@ def double_down(f):
         """ Call to function once before returning. """
         f(*args, **kwargs)
         return f(*args, **kwargs)
+
+    return wrapped
