@@ -1,3 +1,6 @@
+1.0.1
+ - Removed single quotes in setup.py for double quotes
+
 1.0.0
  - Added some additional comments in README.rst
  - Cleaned up expected value assignment in unit test
