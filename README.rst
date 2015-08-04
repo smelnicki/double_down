@@ -53,7 +53,7 @@ Then in your terminal:
     Hello, Python
 
 
-Questions?
+Questions
 ------------
 
 This project was just a fun little foray into learning how decorators work. In all
