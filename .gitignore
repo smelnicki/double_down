@@ -1,0 +1,10 @@
+# ignore virtualenv
+env/
+dist/
+
+# ignore build
+build/
+
+# ignore generated files
+*.egg-info/
+*.pyc
