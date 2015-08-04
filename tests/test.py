@@ -1,5 +1,4 @@
 import unittest
-
 from double_down import double_down
 
 
@@ -15,7 +14,7 @@ class TestDoubleDownDecorator(unittest.TestCase):
             return arr
 
         result = append(self.arr, -1)
-        expected = [0, 1, -1, -1]
+        expected = list(range(2)) + [-1, -1]
 
         self.assertEqual(result, expected)
 
