@@ -16,16 +16,24 @@ Install:
 
 
 Usage:
-.. code:: python
+
+:: python
 
     # example.py
     from double_down import double_down
 
     @double_down
     def hello():
-        return "Hello, Python"
+        print "Hello, Python"
 
     if __name__ == "__main__":
       hello()
+
+::
+
+    > python example.py
+    Hello, Python
+    Hello, Python
+
 
 
