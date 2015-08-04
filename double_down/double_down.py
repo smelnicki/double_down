@@ -4,7 +4,7 @@ from functools import wraps
 def double_down(f):
     @wraps(f)
     def wrapped(*args, **kwargs):
-        """ Call to function once before returning. """
+        """ Simply prepend the function call with... another function call """
         f(*args, **kwargs)
         return f(*args, **kwargs)
 
