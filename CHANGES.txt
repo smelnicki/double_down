@@ -1,3 +1,7 @@
+1.0.0
+ - Added some additional comments in README.rst
+ - Cleaned up expected value assignment in unit test
+
 0.1.1
  - Updated README.rst with a better example.
  - cleaning up decorator and removing print statements

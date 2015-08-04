@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="double_down",
-    version="0.1.1",
+    version="1.0.0",
     author="Stephen Melnicki",
     author_email="smelnicki3@gmail.com",
     packages=find_packages(),
