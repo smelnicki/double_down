@@ -8,6 +8,7 @@ setup(
     packages=find_packages(),
     description="A silly example of a python decorator",
     long_description=open("README.rst").read(),
+    keywords='sample decorators',
     license="MIT (See LICENSE.rst)",
     url="https://github.com/smelnicki/double_down",
 )
