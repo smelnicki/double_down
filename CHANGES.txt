@@ -1,2 +1,7 @@
+0.1.1
+ - Updated README.rst with a better example.
+ - cleaning up decorator and removing print statements
+ - fixing unit tests
+
 0.1.0
  - Initial commit
