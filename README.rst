@@ -6,16 +6,16 @@ A silly example of a python decorator.
 Simply calls the decorated function twice.
 
 
-Quickstart
+Installation
 ------------
 
-Install:
 ::
 
     pip install double_down
 
 
-Usage:
+Usage
+------------
 
 .. code:: python
 
@@ -29,11 +29,11 @@ Usage:
     if __name__ == "__main__":
       hello()
 
+
+Then in your terminal:
+
 ::
 
     > python example.py
     Hello, Python
     Hello, Python
-
-
-
