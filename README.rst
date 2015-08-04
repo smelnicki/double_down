@@ -9,13 +9,26 @@ Simply calls the decorated function twice.
 Installation
 ------------
 
+Double down has been published to python package index and is available via pip:
+
 ::
 
     pip install double_down
 
+Otherwise, if you want to install it manually:
+
+::
+    git clone git@github.com:smelnicki/double_down.git
+    sudo python setup.py install
+
 
 Usage
 ------------
+
+This is about as simple as it gets when it comes to decorators. It literally makes
+your function code execute twice.
+
+For example, see below:
 
 .. code:: python
 
